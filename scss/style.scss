@@ -1,0 +1,27 @@
+// NOTION: https://www.notion.so/pieterjanscheir/Portfolio-12eda213a93748d6b28bc2efbefad5b1
+// RESETS: normalize.css (https://necolas.github.io/normalize.css/)
+
+// OVERVIEW
+//  1.
+//  2.
+//  3.
+//  4.
+//  5.
+//
+//
+@import './_variables';
+@import './_normalize';
+body {
+    background-color: $primary-color;
+    font-family: $main-font;
+    font-weight: map-get($font-weights, bold);
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+
+        p {
+            font-weight: map-get($font-weights, regular);
+        }
+    }
+}

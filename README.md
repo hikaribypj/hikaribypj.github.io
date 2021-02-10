@@ -1,2 +1,0 @@
-# hikaribypj.github.io
-Portfolio
